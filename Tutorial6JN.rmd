@@ -28,3 +28,9 @@ geom_point()
 grid.arrange(p1, p2)
 ```
 
+```{r}
+data(mtcars)
+head(mtcars,5)
+ggplot(mtcars, aes(x=mpg,y=qsec)) + geom_point()
+```
+
